@@ -2,15 +2,35 @@
 <html lang="en" dir="ltr">
 
 <head>
-  <meta charset="utf-8">
-  <title>Hobbies</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <style>
+  body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
 
-body{
-  background-color: lightblue;
-}
+  .hero-image {
+    background-image: url("ship.jpg");
+    background-color: #cccccc;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
 
+  .hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+  }
   </style>
+
+  <title>Hobbies</title>
+  <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body>
@@ -19,18 +39,18 @@ body{
 
 
     <h3>My Hobbies</h3>
+    <hr>
     <ol>
-      <li><a href="https://www.youtube.com/"> Basketball</a>
-        </li>
+      <li><a href="https://www.youtube.com/"> Basketball</a> <br>
         <img src="basketball.jpg" width="150px" height="150px" alt="Basketball">
-        <li><a href="https://rafuli.github.io/cbd/"> Web Development</a>
-          </li>
-
-
-
-      <li><a href="https://www.youtube.com/watch?v=FiMLkBoa_rY&ab_channel=SkiMaskTheSlumpGod">Basketball</a></li>
+      <li><a href="https://rafuli.github.io/cbd/"> Web Development</a> <br>
+        <img src="background.jpg" width="150px" height="150px" alt="view">
+      </li>
+      <li><a href="https://www.youtube.com/watch?v=FiMLkBoa_rY&ab_channel=SkiMaskTheSlumpGod">Music</a></li>
+      <img src="ship.jpg" width="150px" height="150px" alt="view">
     </ol>
   </table>
+  <hr>
 
 </body>
 
